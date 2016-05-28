@@ -126,6 +126,14 @@ div .checkbox input {
 	color: white;
 	padding-top: 20px;
 }
+div .text_1 {
+	margin-top: 5px;
+}
+div .text_2 {
+	
+	margin-bottom: 10px;
+	margin-left: 100px;
+}
 div .ou p {
 	font-size: 16px;
 	color: white;
@@ -134,4 +142,3 @@ div .ou p {
 
 }
 
-}
