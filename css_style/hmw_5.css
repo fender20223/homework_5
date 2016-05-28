@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic-ext);
+
+*{
+    box-sizing: border-box;
+}
+    body {
+    font-family: Tahoma, Arial, sans-serif, "Open Sans";
+    background-image :url(../img/backg.jpg);
+    text-decoration-color: white;
+    height: 100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin:0 auto;
+}
+header {
+	width: 100%;
+	background-color: navy;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+
+.header_menu li {
+	margin-right:0;
+	float:right;
+	line-height: 30px;
+	background-color:navy;
+	padding: 0 10px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+ header .blue{
+    background-color: blue;
+}
+header .blue_right{
+	background-color: blue;
+	margin-right: 15px;
+}
+span {
+	text-decoration: underline;
+}
+.header_menu li a {
+	display: inline-block;
+	color: white;
+    line-height: 50px;
+    padding: 0 10px;
+}
+.main {
+	position:relative;
+	min-width: 100%;
+	height: 1028px;
+}
+.name {
+	padding: 20px;
+	font-size:40;
+	text-align: center;
+	color: white;
+
+}
+.form {
+	position: absolute;
+	top:24.23%;
+	left:29%;
+	width: 42%; 
+	
+    background-color:rgba(0,0,0,0.6); 
+ 	padding: 2px;
+ 	margin-bottom: 20px; 
+}
+
+.item {
+	padding-left: 120px;
+	padding-top: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 30px;
+
+}
+p {
+	color:white;
+	font-size: 11px;
+	padding-top: 5px;
+
+}
+div .item_top input {
+	padding: 10px;
+	margin-top: 20px;
+	width: 300px;
+	font-size: 16px;
+	background-color: navy;
+	color: white;
+	border: 0px;
+	
+}
+
+
+div .item_button input {
+	padding: 10px;
+	margin-top: 20px;
+	width: 300px;
+	font-size: 16px;
+	background-color: black;
+	color: white;
+	border: 0px;
+}
+div .enter input {
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 60px;
+	width: 180px;
+	font-size: 16px;
+	background-color: blue;
+	color: white;
+	border: 0px;
+}
+div .checkbox input {
+	font-size: 16px;
+	color: white;
+	padding-top: 20px;
+}
+div .ou p {
+	font-size: 16px;
+	color: white;
+	padding-top: 20px;
+	margin-left: 120px;
+
+}
+
+}
