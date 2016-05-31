@@ -1,12 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic-ext);
 
 *{
     box-sizing: border-box;
 }
     body {
-    font-family: Tahoma, Arial, sans-serif, "Open Sans";
-    background-image :url(../img/backg.jpg);
-    text-decoration-color: white;
+    font-family: Tahoma, Arial, sans-serif;
+    background-image: url(../img/backg.jpg);
+    color: white;
     height: 100%;
     width:100%;
     background-repeat: no-repeat;
@@ -27,7 +26,7 @@ a {
     text-decoration: none;
 }
 
-.header_menu li {
+.header_menu  li {
 	margin-right:0;
 	float:right;
 	line-height: 30px;
@@ -42,14 +41,14 @@ a {
     border-right: 1px solid white;
     transition: all 0.4s;
 }
-
-/* header .blue{
-    background-color: blue;
+.header_menu li.flag {
+	background-image: url("../img/flag_9.png");
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	background-position: 0px 6px;
 }
-header .blue_right{
-	background-color: blue;
-	margin-right: 15px;
-}*/
+
+
 span {
 	text-decoration: underline;
 }
@@ -73,9 +72,10 @@ span {
 }
 .form {
 	position: absolute;
-	top:24.23%;
-	left:29%;
-	width: 42%; 
+	top: 10%;
+	left: 29%;
+	max-width: 500px;
+	width: 50%; 
 	
     background-color:rgba(0,0,0,0.6); 
  	padding: 2px;
@@ -99,9 +99,9 @@ p {
 div .item_top input {
 	padding: 10px;
 	margin-top: 20px;
-	width: 300px;
+	width: 280px;
 	font-size: 16px;
-	background-color: navy;
+	background-color: #1b5288;
 	color: white;
 	border: 0px;
 	border-radius: 5px;
@@ -112,7 +112,7 @@ div .item_top input {
 div .item_button input {
 	padding: 10px;
 	margin-top: 20px;
-	width: 300px;
+	width: 280px;
 	font-size: 16px;
 	background-color: black;
 	color: white;
@@ -121,10 +121,10 @@ div .item_button input {
 div .enter input {
 	padding: 10px;
 	margin-top: 20px;
-	margin-left: 60px;
+	margin-left: 50px;
 	width: 180px;
 	font-size: 16px;
-	background-color: blue;
+	background-color: #074f8f;
 	color: white;
 	border: 0px;
 	border-radius: 5px;
@@ -142,13 +142,30 @@ div .text_1 {
 div .text_2 {
 	margin-top: 0px;
 	margin-bottom: 20px;
-	margin-left: 100px;
+	margin-left: 90px;
 }
-div .ou p {
+.ou {
+	overflow: hidden;
+	text-align: center;
 	font-size: 16px;
-	color: white;
-	padding-top: 20px;
-	margin-left: 120px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
 
+.ou:before,.ou:after {
+	content: "";
+	display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    height: 1px;
+    background-color:white;
+}
+.ou:before {
+	margin-left: -120%;
+	left: -25px;
+}
+.ou:after {
+	margin-right: -100%;
+	right: -25px;
 }
 
