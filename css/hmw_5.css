@@ -6,8 +6,8 @@
     font-family: Tahoma, Arial, sans-serif;
     background-image: url(../img/backg.jpg);
     color: white;
-    height: 100%;
-    width:100%;
+    width: 100%;
+    height: 100%
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -135,7 +135,7 @@ div .checkbox input {
 	padding-top: 20px;
 	margin-top: 20px;
 }
-div .text_1 {
+/*div .text_1 {
 	margin-top: 20px;
 	margin-bottom: 0px;
 }
@@ -143,6 +143,12 @@ div .text_2 {
 	margin-top: 0px;
 	margin-bottom: 20px;
 	margin-left: 90px;
+}*/
+.text {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 20px;
 }
 .ou {
 	overflow: hidden;
